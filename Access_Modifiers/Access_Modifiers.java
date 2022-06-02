@@ -21,7 +21,7 @@ class c2 extends c1
 
 public class Access_Modifiers {
     public static void main(String[] args) {
-        c1 c = new c1();
+        // c1 c = new c1();
         //  System.out.println(c.z);it is private cant be access in same package
     }
 }

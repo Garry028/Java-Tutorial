@@ -35,8 +35,8 @@ class child2 extends Base
 
 public class Abstract_Class {
     public static void main(String[] args) {
-        child c= new child();  // we can create object of the concrete class
-        child2 c2 = new child2();
+        // child c= new child();  // we can create object of the concrete class
+        // child2 c2 = new child2();
         // Base b= new Base()    // we cant create the object of the abstract class
         // concrete class means a class which is inherited from abstract class and method is inherited
 ;

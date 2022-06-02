@@ -62,7 +62,7 @@ public class Constructors_In_Inheritance {
     public static void main(String[] args) {
         // base b=new base();
         // derived d=new derived(12,3);
-        childOfDerived cd= new childOfDerived(21,3,4);
+        // childOfDerived cd= new childOfDerived(21,3,4);
     }
 }
 // first base class constructor will be called then derived if derived class constructor is not there then it'll call base constructor
