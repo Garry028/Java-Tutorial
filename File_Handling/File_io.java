@@ -16,9 +16,11 @@ public class File_io {
         System.out.println("Enter the name of file: ");
         String filename=sc.nextLine();
         sc.close();
-        File myfFile = new File(filename);
+
+        File myfFile = new File(filename);// her create an object of stream
+
         try {
-            myfFile.createNewFile();
+            myfFile.createNewFile(); // successfully created file
         } catch (IOException e) {
             System.out.println("Unable to create this file !!!");
             e.printStackTrace();
@@ -29,7 +31,7 @@ public class File_io {
        // like this we can write to a file
       
     //    try {
-    //         FileWriter fileWriter =new FileWriter("myfile.txt");
+    //         FileWriter fileWriter = new FileWriter("myfile.txt");
     //         fileWriter.write("This is our first file in java\nOkay you know the things about java");
     //         fileWriter.close();
     //     } catch (IOException e) {
