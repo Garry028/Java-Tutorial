@@ -31,7 +31,7 @@ public class File_io {
        // like this we can write to a file
       
     //    try {
-    //         FileWriter fileWriter = new FileWriter("myfile.txt");
+    //         FileWriter fileWriter = new FileWriter(filename);
     //         fileWriter.write("This is our first file in java\nOkay you know the things about java");
     //         fileWriter.close();
     //     } catch (IOException e) {
@@ -42,7 +42,7 @@ public class File_io {
 
        // like this we can read from the file
       
-    //    File myfFile = new File("myfile.txt");
+    //    File myfFile = new File(filename);
     //    try {
     //     Scanner sc= new Scanner(myfFile);
     //     while(sc.hasNextLine())
@@ -58,7 +58,7 @@ public class File_io {
 
      // like this we can delete a file
 
-    //  File myfFile = new File("myfile.txt");
+    //  File myfFile = new File(filename);
     //  if(myfFile.delete())
     //  {
     //      System.out.println("I have deleted: " + myfFile.getName());
