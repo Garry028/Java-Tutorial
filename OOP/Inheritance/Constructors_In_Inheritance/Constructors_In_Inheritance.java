@@ -33,7 +33,7 @@ class derived extends base
     }
     derived(int a,int b)
     {
-        super(a);
+        super(a);// this will call parameterized constructor of class base
         System.out.println("I am an overloaded constructor of derived with value of b as: " + b);
     }
     public int gety()
@@ -55,7 +55,7 @@ class childOfDerived extends derived
     }
     childOfDerived(int a,int b,int c)
     {
-        super(a,b);
+        super(a,b);// this will call parameterized constructor of derived
         System.out.println("I am an overloaded constructor of derived with value of c as: " + c);    }
 }
 public class Constructors_In_Inheritance {
