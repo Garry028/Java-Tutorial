@@ -33,7 +33,7 @@ public class Matrix_Row_Zero {
             for (int j = 0; j < 3; j++) {
                 if(i==j)
                 {
-                    C[i][j]=00;
+                    C[i][j]=0;
                 }
             }
         }
