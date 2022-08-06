@@ -17,7 +17,7 @@ public class String_Methods {
         System.out.println(a1.replace('y', 'e'));
         System.out.println(a1.replace("Garry", "Barry"));
          
-        System.out.println(a1.charAt(1));
+        System.out.println(a1.charAt(1));//char at index 1
         System.out.println(a1.equals("Garry"));
         System.out.println(a1.compareToIgnoreCase("Garry"));
 

@@ -1,6 +1,9 @@
 {
   "java.project.sourcePaths": [
+    "Rows_Cols_Addition/Rows_Cols_Addition",
     "Matrix_Row_Zero",
-    "Rows_Cols_Addition/Rows_Cols_Addition"
+    "Collection_Framework/Hash_Map",
+    "Collection_Framework/Array_List_tuts",
+    "Collection_Framework/Hash_Set"
   ]
 }

@@ -18,6 +18,12 @@ class Employee // in a java programm only one public class is there
         this.name = name;
     }
 
+    public Employee(Employee e)
+    {
+        id=e.id;
+        name=e.name;
+    }
+
     // Employee(int ID, String NAME) {
     //    id=ID;
     //    name=NAME;
@@ -49,6 +55,8 @@ public class Constructors {
     public static void main(String[] args) {
         // Employee garry = new Employee(12,"Gaurav");
         Employee garry = new Employee();
+        // Employee garry = new Employee(garry);// this will invoke the copy constructor
+
 
         // garry.getdata();
         garry.showdata();
